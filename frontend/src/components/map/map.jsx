@@ -135,7 +135,7 @@ console.log(markers)
 
   return (
     <div className="inside-map">
-      <LoadScript googleMapsApiKey="AIzaSyD_7iDEHvJmsCmS4x9B5x1dWCwAvd4A870">
+      <LoadScript googleMapsApiKey="AIzaSyAWsxtBQUU_0CK-lhLXpf-fa8NMPIRem9g">
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
