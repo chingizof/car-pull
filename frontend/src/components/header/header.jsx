@@ -1,4 +1,5 @@
 import "./index.css"
+import { Link } from "react-router-dom"
 
 
 export const Header = () => {
@@ -6,9 +7,25 @@ export const Header = () => {
         <nav>
             <div className="header-wrapper">
                 <div className="header-content">
-                    <div>Order</div>
-                    <div>Browse trips</div>
-                    <div>Safety</div>
+                    <Link to="/">
+                        <div className='logo'>
+                        </div>
+                    </Link>
+                    <div>
+                        <Link className="header-link" to="/order">
+                        Order
+                        </Link>
+                    </div>
+                    <div>
+                        <Link className="header-link" to="/browse">
+                            Browse trips
+                        </Link>
+                    </div>
+                    <div>
+                        <Link className="header-link" to="/safety">
+                            Safety
+                        </Link>
+                    </div>
                 </div>
             </div>
         </nav>

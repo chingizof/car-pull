@@ -16,11 +16,7 @@ import axios from "axios";
 import { useRef } from "react";
 
 const MapComponent = () => {
-  useEffect(()=>{
-    axios.get("http://localhost:5000/get-notes").then((response)=>{
-      console.log(response)
-    })
-  }, [])
+  
 
   const initialMarkers = [
     {
@@ -94,9 +90,7 @@ const MapComponent = () => {
       location: coordinates,
     };
 
-    axios.post("http://localhost:5000/note", data).then(function (response) {
-      console.log(response);
-    });
+    
     setText('');
     setIsActive(false);
     //  axios.post('http://localhost:3002/note', {message: inputRef.current.value})
@@ -140,7 +134,7 @@ const MapComponent = () => {
 console.log(markers)  
 
   return (
-    <>
+    <div className="inside-map">
       <LoadScript googleMapsApiKey="AIzaSyD_7iDEHvJmsCmS4x9B5x1dWCwAvd4A870">
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -177,7 +171,7 @@ console.log(markers)
           ))}
         </GoogleMap>
       </LoadScript>
-    </>
+    </div>
   );
 };
 

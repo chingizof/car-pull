@@ -1,16 +1,20 @@
+
+
 .item-wrapper {
-    height:150px;
+    height:120px;
     width: 100%;
     display: flex;
     border-radius:10px;
     border: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .img-holder {
     float:left;
     width:auto;
     height:auto;
-    padding:20px
+    padding:10px
 }
 
 .img-holder img {
@@ -22,7 +26,7 @@
 
 .item-data {
     float:right;
-    width:70%;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -30,5 +34,23 @@
 
 #name {
     font-weight: 600;
-    font-size: 48 !important;
+    font-size: 36px !important;
+}
+
+
+.price-tag-wrapper {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 15%;
+}
+
+.price-tag {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
