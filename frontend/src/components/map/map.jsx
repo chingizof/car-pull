@@ -12,7 +12,7 @@ import {
   Marker,
 } from "@react-google-maps/api";
 import LetterModal from "./LetterModal";
-import axios from "axios";
+
 import { useRef } from "react";
 
 const MapComponent = () => {
