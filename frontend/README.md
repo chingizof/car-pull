@@ -1,4 +1,4 @@
-#Lehigh Hackathon 2022
+Lehigh Hackathon 2022
 https://flywheel-nu.vercel.app/
 
 FlyWheel - Lehigh University carpooling app!
@@ -10,8 +10,8 @@ There are currently two options on how to take a trip via carpool as a passenger
 
 Also, there is a safety policy developed in collaboration with the Univesity that provides the security of both passengers and drivers in the app.
 
-#Our Stack: React, Php, Sql
+Our Stack: React, Php, Sql
 
 Have a good time!
 
-###Contributors: Chingiz Tuleubayev, Malika Buribayeva, Aabiskar Thapa Kshetri
+Contributors: Chingiz Tuleubayev, Malika Buribayeva, Aabiskar Thapa Kshetri
