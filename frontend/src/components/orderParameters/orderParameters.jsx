@@ -6,9 +6,15 @@ export const OrderParameters = () => {
     return(
         <div className="parameters-wrapper">
             <div className="parameters-handler">
-                <input className="parameter-input" placeholder="Location 1"></input>
-                <input className="parameter-input" placeholder="Location 2"></input>
-                <input className="parameter-input" placeholder="Time"></input>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Street 1" name="name" id='name' required />
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Street 2" name="name" id='name' required />
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Time" name="name" id='name' required />
+                </div>
                 <div>
                     <div className="search">
                         <Link to={"/order"} style={{"color": "black"}}>

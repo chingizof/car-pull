@@ -38,3 +38,34 @@
 
 
 
+.form__group {
+  position: relative; 
+
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 180px;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+
+  background: transparent;
+  transition: border-color 0.2s;
+
+  
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: gray;
+}
+
+

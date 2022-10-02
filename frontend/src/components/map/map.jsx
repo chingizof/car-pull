@@ -41,8 +41,8 @@ const MapComponent = () => {
   };
 
   const center = {
-    lat: 43.238949,
-    lng: 76.889709,
+    lat: 40.67,
+    lng: -75.22444,
   };
 
   const inputRef = useRef(null);
