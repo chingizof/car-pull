@@ -14,7 +14,7 @@ export const ListItem = () => {
             </div>
             <div className="price-tag-wrapper">
                 <div className="price-tag">
-                    <Link to={"/order"} style={{"color": "black"}}>
+                    <Link to={"/feafefea"} style={{"color": "black"}}>
                         <b>4.98$</b>
                     </Link>
                 </div>

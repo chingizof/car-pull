@@ -17,7 +17,7 @@ export const OrderParameters = () => {
                 </div>
                 <div>
                     <div className="search">
-                        <Link to={"/order"} style={{"color": "black"}}>
+                        <Link to={"/nopage"} style={{"color": "black"}}>
                             Search
                         </Link>
                     </div>

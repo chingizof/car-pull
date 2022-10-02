@@ -6,11 +6,11 @@ import { OrderParameters } from "../components/orderParameters/orderParameters";
 export const OrderPage = () => {
     console.log("Hello")
   return (
-        <>
+        <div>
             <OrderParameters />
             <OrderList />
             
-        </>
+        </div>
   );
 };
 

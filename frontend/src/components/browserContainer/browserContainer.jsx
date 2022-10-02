@@ -16,7 +16,7 @@ export const BrowserContainer = () => {
                         <input type="text" class="form__input" id="filter" placeholder="Capacity" required="" />
                         <input type="text" class="form__input" id="filter" placeholder="Price: 0-150$" required="" />
                         <div className="search-filter">
-                            <Link to={"/order"} style={{"color": "black"}}>
+                            <Link to={"/nopage"} style={{"color": "black"}}>
                                 Search
                             </Link>
                         </div>
