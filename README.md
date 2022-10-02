@@ -15,3 +15,5 @@ Frontend in in our Frontend folder, backend is in Hacklehigh
 Have a good time!
 
 Contributors: Chingiz Tuleubayev, Malika Buribayeva, Aabiskar Thapa Kshetri
+
+ps hackathon judging comittee is so unfair. I am disappointed
