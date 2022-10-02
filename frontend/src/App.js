@@ -7,6 +7,7 @@ import { OrderPage } from './pages/orderPage';
 import { BrowseTrips } from './pages/browseTrips';
 import { SafetyPage } from './pages/safety';
 import { Home } from './pages/home';
+import { NoPage } from './pages/nopage';
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
           <Route path="/browse" element={<BrowseTrips />} />
           <Route path="/safety" element={<SafetyPage />} />
           <Route index element={<Home />} />
+          <Route path="*" element={<NoPage />} />
+          {/* <Route path="/race" element={() => { 
+              window.location.href = 'https://example.com/1234'; 
+              return null;
+          }}/> */}
 
 
         </Route>

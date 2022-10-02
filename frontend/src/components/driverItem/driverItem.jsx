@@ -24,7 +24,7 @@ export const DriverItem = () => {
                     </div>
                     <div className="price-tag-wrapper">
                         <div className="price-tag">
-                            <Link to={"/order"} style={{"color": "black"}}>
+                            <Link to={{ pathname: "https://www.youtube.com/watch?v=iuJDhFRDx9M" }} style={{"color": "black"}} target="_blank" >
                                 <b>4.98$</b>
                             </Link>
                         </div>
