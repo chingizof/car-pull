@@ -6,6 +6,7 @@ import Hello from './pages/hello';
 import { OrderPage } from './pages/orderPage';
 import { BrowseTrips } from './pages/browseTrips';
 import { SafetyPage } from './pages/safety';
+import { Home } from './pages/home';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/order" element={<OrderPage />} />
           <Route path="/browse" element={<BrowseTrips />} />
           <Route path="/safety" element={<SafetyPage />} />
-          {/* <Route index element={} /> */}
+          <Route index element={<Home />} />
 
 
         </Route>
