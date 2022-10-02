@@ -10,6 +10,7 @@ There are currently two options on how to take a trip via carpool as a passenger
 Also, there is a safety policy developed in collaboration with the Univesity that provides the security of both passengers and drivers in the app.
 
 Our Stack: React, Php, Sql
+Frontend in in our Frontend folder, backend is in Hacklehigh
 
 Have a good time!
 
