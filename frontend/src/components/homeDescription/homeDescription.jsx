@@ -7,7 +7,7 @@ export const HomeDescription = () => {
             <div className="container">
                 <div className='container-description'>
                     <h1 className='container-text'>Want to go to Walmart nearby or travel to New York almost for free?</h1>
-                    <span>FlyWheel is a carpooling app created by and for Lehigh University students who are tired of insane taxi prices and want to have an affordable transportation options with peers.</span>
+                    <span className="container-span">FlyWheel is a carpooling app created by and for Lehigh University students who are tired of insane taxi prices and want to have an affordable transportation options with peers.</span>
                     {/* start playing button  */}
                     <div className="play-now">
                         <Link to={"/order"}>
