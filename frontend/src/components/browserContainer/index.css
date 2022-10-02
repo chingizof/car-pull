@@ -1,0 +1,34 @@
+.browser-wrapper {
+    padding-left: 60px;
+}
+
+.filter-side {
+    float: left;
+    height: 100vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-side {
+    float: right;
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-wrapper {
+    background-color: aqua;
+    height: 90%;
+    width: 90%;
+    /* pad */
+}
+
+.result-wrapper {
+    background-color: red;
+    height: 90%;
+    width: 90%;
+}

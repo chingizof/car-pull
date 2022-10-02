@@ -5,7 +5,7 @@ export const ListItem = () => {
     return(
         <div className="item-wrapper">
             <div className="img-holder">
-                <img src="https://m.media-amazon.com/images/I/81Ym4d8Iu7L._AC_UL640_FMwebp_QL65_.jpg"></img>
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQExMd4ko1GwNQ/profile-displayphoto-shrink_800_800/0/1647900004636?e=2147483647&v=beta&t=t-yr4G5TfmjyGV8ocUwOrEjZL4eTwu_VzTkwn7xXFh8"></img>
             </div>
             <div className="item-data">
                 <span id="name">Alexander</span>
