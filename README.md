@@ -1,4 +1,3 @@
-npm# car-pull
 Lehigh Hackathon 2022 - https://flywheel-nu.vercel.app/
 
 FlyWheel - Lehigh University carpooling app!
