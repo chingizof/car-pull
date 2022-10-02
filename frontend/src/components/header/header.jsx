@@ -8,7 +8,7 @@ export const Header = () => {
             <div className="header-wrapper">
                 <div className="header-content">
                     <Link to="/">
-                        <div className='logo'>
+                        <div className='logo' style={{backgroundImage: `url(/flywheelbig.png)`}}>
                         </div>
                     </Link>
                     <div>

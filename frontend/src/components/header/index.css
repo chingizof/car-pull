@@ -19,7 +19,7 @@
 }
 
 .logo {
-    background-image: url("https://engineering.lehigh.edu/sites/engineering.lehigh.edu/themes/eng2017/images/lehigh-brown-logo.svg");
+    /* background-image: url(/flywheelbig.png); */
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;

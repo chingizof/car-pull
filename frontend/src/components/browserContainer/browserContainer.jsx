@@ -1,5 +1,6 @@
 import "./index.css"
 import { Link } from "react-router-dom"
+import { DriverItem } from "../driverItem/driverItem"
 
 export const BrowserContainer = () => {
     return (
@@ -26,6 +27,10 @@ export const BrowserContainer = () => {
             <div className="result-side">
                 <div className="result-wrapper">
                     <h1>Results: 10 </h1>
+                    <div className="drivers-list">
+                        <DriverItem />
+                        <DriverItem />
+                    </div>
                 </div>
             </div>
         </div>

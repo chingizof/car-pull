@@ -16,6 +16,7 @@ function App() {
           <Route path="/order" element={<OrderPage />} />
           <Route path="/browse" element={<BrowseTrips />} />
           <Route path="/safety" element={<SafetyPage />} />
+          {/* <Route index element={} /> */}
 
 
         </Route>

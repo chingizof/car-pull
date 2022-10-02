@@ -13,12 +13,10 @@ export const ListItem = () => {
                 <span>17:00</span>
             </div>
             <div className="price-tag-wrapper">
-                <div>
-                    <div className="price-tag">
-                        <Link to={"/order"} style={{"color": "black"}}>
-                            4.98$
-                        </Link>
-                    </div>
+                <div className="price-tag">
+                    <Link to={"/order"} style={{"color": "black"}}>
+                        <b>4.98$</b>
+                    </Link>
                 </div>
             </div>
         </div>

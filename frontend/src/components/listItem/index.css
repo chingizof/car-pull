@@ -42,14 +42,16 @@
     height: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    width: 15%;
+    width: 25%;
+    display: flex;
+    align-items: center;
 }
 
 .price-tag {
     height: 50px;
     width: 100%;
     border-radius: 10px;
-    background-color: pink;
+    background-color: #FFA5D3;
     display: flex;
     justify-content: center;
     align-items: center;
